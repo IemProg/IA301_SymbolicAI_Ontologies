@@ -7,12 +7,14 @@ Sustainable Cities Ontology
 ==============
 ##  Motivation
 
-Since we live in a dynamic world, the problem of movement becomes more acute. Not everyone wants to use public transport and prefer cars or scooters. For better use of resources and comfortable movement, you can use the car rental network.Therefore, my partner and I decided to develop an ontology for car rental, which will be relevant for service owners to better organize their work.
+Cities are growing with unseen rate, providing better Since we live in a dynamic world, the problem of movement becomes more acute. Not everyone wants to use public transport and prefer cars or scooters. For better use of resources and comfortable movement, you can use the car rental network. Therefore, my partner and I decided to develop an ontology for car rental, which will be relevant for service owners to better organize their work.
 
 ----
 
 ## Objective:  
-
+ 
+A recommendation model to help urban planning and ensure sustainability of cities and human settlements
+ 
 ### Team:
 
 - Sini SURESH
@@ -21,15 +23,18 @@ Since we live in a dynamic world, the problem of movement becomes more acute. No
 
 ### Ontology Repo
 
-|https://github.com/IemProg/IA301_SymbolicAI_Ontologies/src |
+| https://github.com/IemProg/IA301_SymbolicAI_Ontologies/src |
 
 ----|
 
 ### Methodology:
 
-|**Problem**| How to organize the process of renting a vehicle|
-|**Main class**|Extract the main components of the process |
-|**Basic property**|Defining the basic relationships between classes and how they interact in a real-world environment|
+|**Problem**| |
+
+|**Main classes**| Sustainibility, Regions, and Population |
+
+|**Basic property**| Defining the basic relationships between classes and how they interact in a real-world environment |
+
 |**Creation of the ontology**| Using Prote ́ge ́|
 
 ----
@@ -73,11 +78,6 @@ Made by the team member's on the basis of intuitive considerations and consideri
 
 ----
 
-## Development environment
-
-Protégé
-
-----
 
 ## Ontology metrics
 
@@ -98,3 +98,7 @@ Each class minimally requires a textual definition, a label, a creator and an ed
 ## Quality Assurance
 
 ## Testing
+
+## Development environment
+
+Protégé
