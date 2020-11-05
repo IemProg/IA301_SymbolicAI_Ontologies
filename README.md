@@ -7,7 +7,7 @@ Sustainable Cities Ontology
 ==============
 ##  Motivation
 
-Cities are growing with unseen rate, providing better Since we live in a dynamic world, the problem of movement becomes more acute. Not everyone wants to use public transport and prefer cars or scooters. For better use of resources and comfortable movement, you can use the car rental network. Therefore, my partner and I decided to develop an ontology for car rental, which will be relevant for service owners to better organize their work.
+Cities are growing with unseen rate, providing better living conditions at the cost of nature. Which rises the worry, therefore many association are devoted for the aim to provide suitable plans for goverments to create smart, sustainable cities. One of them, is the Agenda2030 published by the UN containing 17 objectives. My team decided to work on GOAL11 "Make  cities  and  human  settlements  inclusive,  safe,resilient  and  sustainable.” Throughtout, this project we would like to build an ontology which is a recommendation model to help urban planning.
 
 ----
 
