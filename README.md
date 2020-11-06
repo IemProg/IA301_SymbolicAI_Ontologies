@@ -9,7 +9,7 @@ Developing ontology about sustainable cities and Human Settlements SDG GOAL11
 ## A. Basics
 
 #### A.1 Ontology name
-- VSustainable Cities and Human Settlements, v1.0
+- Sustainable Cities and Human Settlements, v1.0
 
 #### A.2 Ontology owner
 - Sini SURESH
