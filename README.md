@@ -137,4 +137,4 @@ Each class minimally requires a textual definition, a label, a creator and an ed
 #### Testing
 Main classes: 3, Total # of classes: 43, Object properties: 7, Axioms: 174 Provided in the report with screenshot.
 
-| <img src="imgs/metrics.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />| <img src="imgs/metrics2.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
+| <img src="imgs/metrics.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
