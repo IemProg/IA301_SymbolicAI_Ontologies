@@ -25,11 +25,9 @@ A recommendation model to help urban planning and ensure sustainability of citie
 
 | https://github.com/IemProg/IA301_SymbolicAI_Ontologies/src |
 
-----|
-
 ### Methodology:
 
-|**Problem**| |
+|**Objective**| An ontology for the sustainable cities knowledge domain, in order to help urban planning |
 
 |**Main classes**| Sustainibility, Regions, and Population |
 
@@ -95,9 +93,12 @@ Each class minimally requires a textual definition, a label, a creator and an ed
 
 ## Ontology relationships
 
-## Quality Assurance
+| <img src="imgs/Properties.JPG"       alt="Property Hierarchy"       style="float: left; margin-right: 10px;" />
+| <img src="imgs/property1.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
+| <img src="imgs/property2.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
 
 ## Testing
+| <img src="imgs/metrics1.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />| <img src="imgs/metrics2.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
 
 ## Development environment
 
