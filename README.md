@@ -42,8 +42,6 @@ A recommendation model to help urban planning and ensure sustainability of citie
 
 The goverments interested in creating smart, sustainable cities
 
-## Scope, requirements
-
 ### Scope and Coverage
 
 - Оntology should be simple and intuitive
@@ -54,15 +52,13 @@ The goverments interested in creating smart, sustainable cities
 
 ----
 
-## Knowledge Acquisition
-
-## Knowledge Acquisition Methodology
+### Knowledge Acquisition Methodology
 
 Knowledge was acquired by modeling the defined factors 
 
 ----
 
-## Content selection
+### Content selection
 
 Made by the team member's on the basis of intuitive considerations and considering the appropriate required work-load.
 
@@ -70,36 +66,36 @@ Made by the team member's on the basis of intuitive considerations and consideri
 
 ## Ontology content
 
-## Knowledge Representation language
+### Knowledge Representation language
 
  OWL version 2
 
 ----
 
 
-## Ontology metrics
+### Ontology metrics
 
-## Identifier Generation Policy
+### Identifier Generation Policy
 
 - Identifiers, and class labels according to the domain knowledge.
 
 ----
 
-## Entity metadata policy
+### Entity metadata policy
 
 Each class minimally requires a textual definition, a label, a creator and an edit date.
 
 ----
 
-## Ontology relationships
+### Ontology relationships
 
 | <img src="imgs/Properties.JPG"       alt="Property Hierarchy"       style="float: left; margin-right: 10px;" />
 | <img src="imgs/property1.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
 | <img src="imgs/property2.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
 
-## Testing
+### Testing
 | <img src="imgs/metrics1.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />| <img src="imgs/metrics2.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
 
-## Development environment
+### Development environment
 
 Protégé
