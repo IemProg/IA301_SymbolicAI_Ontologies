@@ -138,3 +138,13 @@ Each class minimally requires a textual definition, a label, a creator and an ed
 Main classes: 3, Total # of classes: 43, Object properties: 7, Axioms: 174 Provided in the report with screenshot.
 
 | <img src="imgs/metrics.JPG"       alt="Ontology metrics"       style="float: left; margin-right: 10px;" />|
+
+
+## G. Quality Assurance
+
+#### G.1 Testing 
+-  The model inferred that population with vehicle can also use public transportation. It also classed the tourist places in densely populated regions.
+
+#### G.2 Evaluation 
+- The evaluation shows that the model is successful in classifying regions/places and also an extension of this project will cover all the goals mentioned such as any new construction classified under industrial/residential area in expandable regions, disaster management measures specific to different classes.
+G.4 Institutional endorsement - Sustainable Cities and Human Settlements Ontology is a part of AI - Telecom-Paris (class of 20-21)
