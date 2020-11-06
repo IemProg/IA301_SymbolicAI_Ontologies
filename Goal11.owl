@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#"
+     xml:base="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasDisasteManagement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasDisasteManagement">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasNewConstructions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasNewConstructions">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#NewIndustry"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutShelter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasPublicResources -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasPublicResources">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasVehicle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithVehicle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#UsesPublicTransport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#UsesPublicTransport">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Activities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Apartments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Apartments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#OfficeBuildings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#BiomassElectricity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#BiomassElectricity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#CommunityHelp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#CommunityHelp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPCorporateArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPCorporateArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPIndustrialArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPIndustrialArea">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPMalls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPMalls">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPResidentialArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPResidentialArea">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasPublicResources"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPTouristsArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DPTouristsArea">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lyon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Marseille"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Paris"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterMitigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterMitigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Antibes"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bordeaux"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cannes"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Nice"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProneHouses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProneHouses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasDisasteManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProneWorkplace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProneWorkplace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasDisasteManagement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExistingIndustry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExistingIndustry">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Annecy"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lorient"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Saint-Nazaire"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Garden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Garden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HydroElectricity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HydroElectricity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#IndustrialArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#IndustrialArea">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#OfficeBuildings"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#NewIndustry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#NewIndustry">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasNewConstructions"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#IndustrialArea"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#OfficeBuildings"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#OfficeBuildings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#OfficeBuildings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Parks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Parks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ElectricBike"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridCar"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PvtCycle"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bus"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cycle"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridTaxi"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Metro"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Train"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Tram"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ResidentialArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ResidentialArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ResponseRecoveryTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ResponseRecoveryTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SolarElectricity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SolarElectricity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Streets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Streets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableRecreation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#UrbanSpaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#UrbanSpaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithShelter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithShelter">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#SustainableConstruction"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithVehicle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasVehicle"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutShelter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutShelter">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasSustainableLiving"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HasNewConstructions"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ResidentialArea"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#WithoutVehicle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#UsesPublicTransport"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Annecy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Annecy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Antibes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Antibes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bordeaux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bordeaux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Bus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cannes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cannes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Cycle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ElectricBike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ElectricBike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridCar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridCar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridTaxi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#HybridTaxi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lorient -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lorient">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lyon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Lyon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Marseille -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Marseille">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Metro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Metro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Nice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Nice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Paris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Paris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PvtCycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PvtCycle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PrivateTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Saint-Nazaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Saint-Nazaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Train -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Train">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Tram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Tram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicTransport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DenselyPopulated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#DisasterProne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#ExpandableRegion"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Electricity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#PublicResources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Transport"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Population"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Regions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sinisuresh/ontologies/2020/10/goal11-ontology-9#Sustainability"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
