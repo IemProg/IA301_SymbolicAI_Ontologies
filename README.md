@@ -2,9 +2,10 @@
 
 Developing ontology about sustainable cities SDG GOAL11
 
-Sustainable Cities Ontology
+------------------------------- **Sustainable Cities Ontology** -------------------------------
+> “make  cities  and  human  settlements  inclusive,  safe,resilient  and  sustainable.” 
 
-==============
+
 ##  Motivation
 
 Cities are growing with unseen rate, providing better living conditions at the cost of nature. Which rises the worry, therefore many association are devoted for the aim to provide suitable plans for goverments to create smart, sustainable cities. One of them, is the Agenda2030 published by the UN containing 17 objectives. My team decided to work on GOAL11 "Make  cities  and  human  settlements  inclusive,  safe,resilient  and  sustainable.” Throughtout, this project we would like to build an ontology which is a recommendation model to help urban planning.
@@ -20,10 +21,6 @@ A recommendation model to help urban planning and ensure sustainability of citie
 - Sini SURESH
 - Imad Eddine MAROUF
 - Anne-Claire MARECHAL
-
-### Ontology Repo
-
-| https://github.com/IemProg/IA301_SymbolicAI_Ontologies/src |
 
 ### Methodology:
 
