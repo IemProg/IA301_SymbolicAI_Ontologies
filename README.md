@@ -1,9 +1,9 @@
 # IA301_SymbolicAI_Ontologies
 
-Developing ontology about sustainable cities SDG GOAL11
+Developing ontology about sustainable cities and Human Settlements SDG GOAL11
 
 ------------------------------- **Sustainable Cities Ontology** -------------------------------
-> “make  cities  and  human  settlements  inclusive,  safe,resilient  and  sustainable.” 
+> “make  cities  and  human  settlements  inclusive,  safe-resilient  and  sustainable.” 
 
 
 ##  Motivation
@@ -14,7 +14,7 @@ Cities are growing with unseen rate, providing better living conditions at the c
 
 ## Objective:  
  
-A recommendation model to help urban planning and ensure sustainability of cities and human settlements
+A recommendation model to help urban planning and ensure sustainability of cities and human settlements.
  
 ### Team:
 
